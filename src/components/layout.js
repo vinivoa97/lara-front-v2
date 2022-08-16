@@ -1,17 +1,17 @@
-import React from "react"
-import Footer from "./footer"
-import Header from "./header"
+import React from 'react';
+import NavBar from '../components/navbar';
+import Footer from '../components/footer'
 
-const Layout = ({ children }) => {
-  return (
-    <div className="flex min-h-screen flex-col justify-between bg-neutral-50 text-neutral-900">
-      <div>
-        <Header />
-        {children}
-      </div>
-      <Footer />
-    </div>
-  )
+export default function Layout(props){
+  const estilo= {
+    margin: "0",
+     width: "100%",
+     height: "100%",};
+  return(
+  <div style={estilo}>
+    <NavBar page={props.page} />
+    {props.children}
+    <Footer />
+  </div>
+  );
 }
-
-export default Layout

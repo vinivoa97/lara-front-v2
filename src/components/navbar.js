@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/estilo.css';
-import { Navbar, Nav, Button } from "react-bootstrap";
-import logo from '../assets/logo.png';
+import { Navbar, Nav, Button } from "react-bootstrap"
+import logo from '../assets/logo.png'
 
 export default function NavBar(props) {
 

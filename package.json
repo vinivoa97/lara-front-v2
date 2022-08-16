@@ -8,14 +8,19 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "babel-plugin-styled-components": "^2.0.7",
+    "bootstrap": "^5.2.0",
     "gatsby": "^4.5.3",
     "gatsby-plugin-image": "^2.6.0",
     "gatsby-plugin-styled-components": "^5.19.0",
     "gatsby-source-strapi": "^2.0.0",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
-    "styled-components": "^5.3.5",
-    "react-bootstrap": "^1.4.0"
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.1.9"
   }
 }

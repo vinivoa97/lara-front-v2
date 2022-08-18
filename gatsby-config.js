@@ -27,13 +27,16 @@ module.exports = {
             },
           },
           {
-            singularName: "author",
+            singularName: "laboratorio",
           },
           {
-            singularName: "category",
+            singularName: "experimento",
           },
           {
             singularName: "aluno",
+          },
+          {
+            singularName: "publicacao",
           },
         ],
         singleTypes: [
